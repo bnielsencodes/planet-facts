@@ -13,3 +13,18 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin font-h2 {
+  font: $font-h2;
+  letter-spacing: -1.5px;
+}
+
+@mixin font-h3 {
+  font: $font-h3;
+  letter-spacing: 2.6px;
+}
+
+@mixin font-h4 {
+  font: $font-h4;
+  letter-spacing: 1px;
+}

@@ -19,13 +19,13 @@ h1 {
 }
 
 h2 {
-  font: $font-h2;
+  @include font-h2;
 }
 
 h3 {
-  font: $font-h3;
+  @include font-h3;
 }
 
 h4 {
-  font: $font-h4;
+  @include font-h4;
 }

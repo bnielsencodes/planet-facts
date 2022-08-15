@@ -423,14 +423,17 @@ h1 {
 
 h2 {
   font: normal 500 40px/1.5 "Antonio", sans-serif;
+  letter-spacing: -1.5px;
 }
 
 h3 {
   font: normal 600 12px/1.5 "League Spartan", sans-serif;
+  letter-spacing: 2.6px;
 }
 
 h4 {
   font: normal 600 11px/1.5 "League Spartan", sans-serif;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
