@@ -337,4 +337,92 @@ template {
   display: none;
 }
 
+body {
+  padding: 0 20px;
+  background-color: #070724;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+.menu--is-hidden {
+  display: none;
+}
+
+.toggle-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.planet__svg--is-hidden {
+  display: none;
+}
+
+.info {
+  text-align: center;
+}
+
+.info__text--is-hidden {
+  display: none;
+}
+
+.source {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+h4,
+.source__text,
+.info__text {
+  color: #838391;
+}
+
+body {
+  font: normal 400 14px/1.5 "League Spartan", sans-serif;
+}
+
+h1 {
+  font: normal 500 80px/1.5 "Antonio", sans-serif;
+}
+
+h2 {
+  font: normal 500 40px/1.5 "Antonio", sans-serif;
+}
+
+h3 {
+  font: normal 600 12px/1.5 "League Spartan", sans-serif;
+}
+
+h4 {
+  font: normal 600 11px/1.5 "League Spartan", sans-serif;
+}
+
 /*# sourceMappingURL=styles.css.map */
