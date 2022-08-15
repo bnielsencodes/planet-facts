@@ -1,6 +1,14 @@
 body {
+  position: relative;
   padding: 0 20px;
   background-color: $color-bg;
+}
+
+.stars-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-y;
 }
 
 nav {

@@ -338,8 +338,16 @@ template {
 }
 
 body {
+  position: relative;
   padding: 0 20px;
   background-color: #070724;
+}
+
+.stars-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: repeat-y;
 }
 
 nav {
