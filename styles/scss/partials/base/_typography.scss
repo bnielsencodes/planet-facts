@@ -1,0 +1,31 @@
+h1,
+h2,
+h3 {
+  color: $color-text-primary;
+}
+
+h4,
+.source__text,
+.info__text {
+  color: $color-text-ternary;
+}
+
+body {
+  font: $font-body;
+}
+
+h1 {
+  font: $font-h1;
+}
+
+h2 {
+  font: $font-h2;
+}
+
+h3 {
+  font: $font-h3;
+}
+
+h4 {
+  font: $font-h4;
+}
