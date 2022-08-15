@@ -1,0 +1,47 @@
+body {
+  padding: 0 20px;
+  background-color: $color-bg;
+}
+
+nav {
+  @include flex-space-between;
+}
+
+.menu {
+  @include flex-space-between;
+  list-style: none;
+}
+
+.hidden-sm {
+  @include hidden;
+}
+
+.menu--is-hidden {
+  @include hidden;
+}
+
+.toggle-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.planet__svg--is-hidden {
+  @include hidden;
+}
+
+.info {
+  text-align: center;
+}
+
+.info__text--is-hidden {
+  @include hidden;
+}
+
+.source {
+  @include flex-center;
+}
+
+.cards__item {
+  @include flex-space-between;
+}
