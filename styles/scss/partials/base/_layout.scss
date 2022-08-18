@@ -1,56 +1,76 @@
-body {
-  position: relative;
-  padding: 0 20px;
-  background-color: $color-bg;
-}
+// * {
+//   box-sizing: border-box;
+// }
 
-.stars-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  background-repeat: repeat-y;
-}
+// body {
+//   position: relative;
+//   z-index: 0;
+//   background-color: $color-bg;
+// }
 
-nav {
-  @include flex-space-between;
-}
+// .stars-bg {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 100;
+//   width: 100%;
+//   background-repeat: repeat-y;
+// }
 
-.menu {
-  @include flex-space-between;
-  list-style: none;
-}
+// main {
+//   position: absolute;
+//   z-index: 200;
+// }
 
-.hidden-sm {
-  @include hidden;
-}
+// nav {
+//   @include flex-space-between;
+//   padding: 10px 18px 9px;
+// }
 
-.menu--is-hidden {
-  @include hidden;
-}
+// .menu {
+//   @include flex-space-between;
+//   list-style: none;
+// }
 
-.toggle-menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+// .hidden-sm {
+//   @include hidden;
+// }
 
-.planet__svg--is-hidden {
-  @include hidden;
-}
+// .menu--is-hidden {
+//   @include hidden;
+// }
 
-.info {
-  text-align: center;
-}
+// .toggle-menu {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   width: 100%;
+//   height: 50px;
+//   border-top: 2px solid $color-text-secondary;
+//   border-bottom: 2px solid $color-text-secondary;
+// }
 
-.info__text--is-hidden {
-  @include hidden;
-}
+// .planet__svg--is-hidden {
+//   @include hidden;
+// }
 
-.source {
-  @include flex-center;
-}
+// .info {
+//   padding: 0 20px;
+//   text-align: center;
+// }
 
-.cards__item {
-  @include flex-space-between;
-}
+// .info__text--is-hidden {
+//   @include hidden;
+// }
+
+// .source {
+//   @include flex-center;
+// }
+
+// .cards {
+//   padding: 0 20px;
+// }
+
+// .cards__item {
+//   @include flex-space-between;
+// }
