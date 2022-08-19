@@ -2,3 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  z-index: 0;
+  background-color: var(--color-bg);
+  font: normal 400 16px/1.5 "League Spartan", sans-serif;
+  --color-bg: #070724;
+  --color-text-primary: #fff;
+  --color-text-secondary: #38384f;
+  --color-text-ternary: #838391;
+  --color-mercury: #419ebb;
+  --color-venus: #eda249;
+  --color-earth: #6f2ed6;
+  --color-mars: #d14c32;
+  --color-jupiter: #d83a34;
+  --color-saturn: #cd5120;
+  --color-uranus: #1ec2a4;
+  --color-neptune: #2d68f0;
+}
+
