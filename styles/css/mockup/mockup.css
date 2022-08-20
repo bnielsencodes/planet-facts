@@ -121,3 +121,25 @@ TOGGLE MENU
   letter-spacing: 2.6px;
 }
 
+/* **************************************
+*****************************************
+PLANET
+*****************************************
+************************************** */
+
+.planet {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.planet__img {
+  width: 100%;
+  max-width: 290px;
+  height: auto;
+  margin: 90px 0 70px;
+}
+
+.planet__img--is-hidden {
+  display: none;
+}
+
