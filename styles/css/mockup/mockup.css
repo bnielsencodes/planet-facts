@@ -220,10 +220,134 @@ MEDIUM SCREEN MEDIA QUERIES
 ************************************** */
 
 @media (min-width: 768px) {
+  .hidden-sm {
+    display: block;
+  }
+
+  .nav {
+    flex: 1fr;
+    flex-direction: column;
+    padding-top: 25px;
+    border-bottom: 1px solid var(--color-text-secondary);
+    margin-bottom: 50px;
+  }
+
+  .nav__logo {
+    margin-bottom: 18px;
+  }
+
   .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 0 35px;
     list-style: none;
+  }
+
+  .menu__link {
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .menu__heading {
+    margin-bottom: 10px;
+    color: var(--color-text-ternary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  #toggle-menu-sm__hidden {
+    display: none;
+  }
+
+  .planet {
+    width: 185px;
+  }
+
+  .planet__img {
+    margin-bottom: 100px;
+  }
+
+  .info-toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px 5px;
+  }
+
+  .info {
+    width: 48%;
+    padding: 0;
+  }
+
+  .info__title,
+  .info__text {
+    text-align: justify;
+  }
+
+  .info__title {
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+  }
+
+  .info__text {
+    margin-top: 18px;
+  }
+
+  .source {
+    justify-content: flex-start;
+  }
+
+  .toggle-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+    width: 41%;
+  }
+
+  .toggle-menu__link {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .toggle-menu__heading {
+    padding: 12px 15px 10px;
+    border: 1px solid var(--color-text-secondary);
+    font-size: 0.6rem;
+    letter-spacing: 2.6px;
+  }
+
+  .toggle-menu__heading span {
+    padding-right: 12px;
+    background-color: var(--color-bg);
+    color: var(--color-text-ternary);
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    padding: 0 35px;
+  }
+
+  .cards__item {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 8px 15px;
+  }
+
+  .cards__text {
+    margin: 3px 0 6px;
+  }
+
+  .cards__stat {
+    margin-bottom: 3px;
+    font-size: 1rem;
   }
 }
