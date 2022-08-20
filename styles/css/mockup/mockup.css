@@ -97,7 +97,7 @@ TOGGLE MENU
 *****************************************
 ************************************** */
 
-.toggle-menu {
+.toggle-menu-sm {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -107,14 +107,14 @@ TOGGLE MENU
   border-bottom: 1px solid var(--color-text-secondary);
 }
 
-.toggle-menu__link {
+.toggle-menu-sm__link {
   display: flex;
   align-items: center;
   height: 46px;
   text-decoration: none;
 }
 
-.toggle-menu__heading {
+.toggle-menu-sm__heading {
   padding-left: 2px;
   color: var(--color-text-ternary);
   font-size: 0.6rem;
