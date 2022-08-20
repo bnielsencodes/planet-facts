@@ -213,3 +213,17 @@ CARDS
   font-size: 0.975rem;
 }
 
+/* **************************************
+*****************************************
+MEDIUM SCREEN MEDIA QUERIES
+*****************************************
+************************************** */
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+}
