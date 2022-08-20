@@ -143,3 +143,43 @@ PLANET
   display: none;
 }
 
+/* **************************************
+*****************************************
+INFO AND SOURCE
+*****************************************
+************************************** */
+
+.info {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.info__title {
+  margin: 0;
+}
+
+.info__text {
+  font-size: 0.85rem;
+}
+
+.source {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 0.875rem;
+}
+
+.source__text {
+  color: var(--color-text-secondary);
+}
+
+.source__text span {
+  padding: 0 3px;
+}
+
+.source__link {
+  padding-right: 4px;
+  color: var(--color-text-ternary);
+}
+
