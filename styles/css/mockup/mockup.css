@@ -227,9 +227,13 @@ MEDIUM SCREEN MEDIA QUERIES
     display: block;
   }
 
+  .stars-bg {
+    height: 908px;
+  }
+
   .nav {
-    flex: 1fr;
     flex-direction: column;
+    width: 100vw;
     padding-top: 25px;
     border-bottom: 1px solid var(--color-text-secondary);
     margin-bottom: 50px;
@@ -335,7 +339,7 @@ MEDIUM SCREEN MEDIA QUERIES
     justify-content: space-between;
     align-items: center;
     column-gap: 10px;
-    padding: 0 35px;
+    padding: 0 35px 15px;
   }
 
   .cards__item {
