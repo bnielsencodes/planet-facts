@@ -89,6 +89,7 @@ nav {
 
 .nav__logo {
   font-size: 22px;
+  background-color: var(--color-bg);
 }
 
 /* **************************************
@@ -116,6 +117,7 @@ TOGGLE MENU
 
 .toggle-menu-sm__heading {
   padding-left: 2px;
+  background-color: var(--color-bg);
   color: var(--color-text-ternary);
   font-size: 0.6rem;
   letter-spacing: 2.6px;
@@ -162,6 +164,7 @@ INFO AND SOURCE
   max-width: 557px;
   margin: 16px auto 0;
   font-size: 0.85rem;
+  background-color: var(--color-bg);
 }
 
 .source {
@@ -174,6 +177,7 @@ INFO AND SOURCE
 
 .source__text {
   color: var(--color-text-secondary);
+  background-color: var(--color-bg);
 }
 
 .source__text span {
@@ -182,6 +186,7 @@ INFO AND SOURCE
 
 .source__link {
   padding-right: 4px;
+  background-color: var(--color-bg);
   color: var(--color-text-ternary);
 }
 
@@ -252,6 +257,7 @@ MEDIUM SCREEN MEDIA QUERIES
     list-style: none;
   }
 
+    background-color: var(--color-bg);
   .menu__link {
     padding-bottom: 10px;
     text-decoration: none;
@@ -318,6 +324,7 @@ MEDIUM SCREEN MEDIA QUERIES
 
   .toggle-menu__link {
     width: 100%;
+    background-color: var(--color-bg);
     text-decoration: none;
   }
 
@@ -340,6 +347,7 @@ MEDIUM SCREEN MEDIA QUERIES
     align-items: center;
     column-gap: 10px;
     padding: 0 35px 15px;
+    background-color: var(--color-bg);
   }
 
   .cards__item {
