@@ -6,6 +6,7 @@
 body {
   position: relative;
   z-index: 0;
+  width: 100%;
   background-color: var(--color-bg);
   font: normal 400 16px/1.5 "League Spartan", sans-serif;
   --color-bg: #070724;
@@ -43,6 +44,10 @@ body {
 main {
   position: absolute;
   z-index: 200;
+}
+
+header {
+  position: relative;
 }
 
 h1,
@@ -89,6 +94,7 @@ NAVIGATION
 ************************************** */
 
 nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -455,6 +461,10 @@ MEDIUM SCREEN MEDIA QUERIES
 @media (min-width: 768px) {
   .hidden-sm {
     display: block;
+  }
+
+  #hide-burger {
+    display: none;
   }
 
   .stars-bg {
