@@ -262,6 +262,7 @@ MEDIUM SCREEN MEDIA QUERIES
     flex-direction: column;
     width: 100vw;
     padding-top: 25px;
+    padding-bottom: 0;
     border-bottom: 1px solid var(--color-text-secondary);
     margin-bottom: 50px;
   }
@@ -275,7 +276,9 @@ MEDIUM SCREEN MEDIA QUERIES
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 46px;
     padding: 0 35px;
+    margin-bottom: 0;
     list-style: none;
   }
 
@@ -285,12 +288,32 @@ MEDIUM SCREEN MEDIA QUERIES
     text-decoration: none;
   }
 
+  .menu__link:hover {
+    padding-bottom: 7px;
+    margin-top: 0px;
+    border-bottom: 3px solid var(--color-mercury);
+  }
+
+  .menu__link--active {
+    padding-bottom: 7px;
+    border-bottom: 3px solid var(--color-mercury);
+    margin-top: 0px;
+  }
+
   .menu__heading {
     margin-bottom: 10px;
     color: var(--color-text-ternary);
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 1px;
+  }
+
+  .menu__link:hover .menu__heading {
+    color: var(--color-text-primary);
+  }
+
+  .menu__link--active .menu__heading {
+    color: var(--color-text-primary);
   }
 
   #toggle-menu-sm__hidden {
@@ -348,6 +371,22 @@ MEDIUM SCREEN MEDIA QUERIES
     width: 100%;
     background-color: var(--color-bg);
     text-decoration: none;
+  }
+
+  .toggle-menu__link:hover:not(.toggle-menu__link--active),
+  .toggle-menu__link:hover:not(.toggle-menu__link--active)
+    .toggle-menu__heading
+    span {
+    background-color: var(--color-text-secondary);
+  }
+
+  .toggle-menu__link--active,
+  .toggle-menu__link--active .toggle-menu__heading span {
+    background-color: var(--color-mercury);
+  }
+
+  .toggle-menu__link--active .toggle-menu__heading span {
+    color: var(--color-text-primary);
   }
 
   .toggle-menu__heading {
