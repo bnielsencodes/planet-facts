@@ -225,11 +225,70 @@ TOGGLE MENU
 
 .toggle-menu-sm__item:hover:not(.toggle-menu-sm__item--active) {
   padding-bottom: 3px;
+}
+
+.mercury:hover:not(.toggle-menu-sm__item--active) {
   border-top: 3px solid var(--color-mercury);
 }
 
-.toggle-menu-sm__item--active {
+.mercury--active {
   border-top: 3px solid var(--color-mercury);
+}
+
+.venus:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-venus);
+}
+
+.venus--active {
+  border-top: 3px solid var(--color-venus);
+}
+
+.earth:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-earth);
+}
+
+.earth--active {
+  border-top: 3px solid var(--color-earth);
+}
+
+.mars:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-mars);
+}
+
+.mars--active {
+  border-top: 3px solid var(--color-mars);
+}
+
+.jupiter:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-jupiter);
+}
+
+.jupiter--active {
+  border-top: 3px solid var(--color-jupiter);
+}
+
+.saturn:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-saturn);
+}
+
+.saturn--active {
+  border-top: 3px solid var(--color-saturn);
+}
+
+.uranus:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-uranus);
+}
+
+.uranus--active {
+  border-top: 3px solid var(--color-uranus);
+}
+
+.neptune:hover:not(.toggle-menu-sm__item--active) {
+  border-top: 3px solid var(--color-neptune);
+}
+
+.neptune--active {
+  border-top: 3px solid var(--color-neptune);
 }
 
 .toggle-menu-sm__heading {
@@ -324,7 +383,7 @@ INFO AND SOURCE
   color: var(--color-text-ternary);
 }
 
-.source__link:hover {
+.source--mercury:hover {
   color: var(--color-mercury);
 }
 
@@ -442,13 +501,75 @@ MEDIUM SCREEN MEDIA QUERIES
   .menu__link:hover {
     padding-bottom: 7px;
     margin-top: 0px;
-    border-bottom: 3px solid var(--color-mercury);
   }
 
   .menu__link--active {
     padding-bottom: 7px;
-    border-bottom: 3px solid var(--color-mercury);
     margin-top: 0px;
+  }
+
+  .nav-mercury:hover {
+    border-bottom: 3px solid var(--color-mercury);
+  }
+
+  .nav-mercury--active {
+    border-bottom: 3px solid var(--color-mercury);
+  }
+
+  .nav-venus:hover {
+    border-bottom: 3px solid var(--color-venus);
+  }
+
+  .nav-venus--active {
+    border-bottom: 3px solid var(--color-venus);
+  }
+
+  .nav-earth:hover {
+    border-bottom: 3px solid var(--color-earth-alt);
+  }
+
+  .nav-earth--active {
+    border-bottom: 3px solid var(--color-earth-alt);
+  }
+
+  .nav-mars:hover {
+    border-bottom: 3px solid var(--color-mars);
+  }
+
+  .nav-mars--active {
+    border-bottom: 3px solid var(--color-mars);
+  }
+
+  .nav-jupiter:hover {
+    border-bottom: 3px solid var(--color-jupiter-alt);
+  }
+
+  .nav-jupiter--active {
+    border-bottom: 3px solid var(--color-jupiter-alt);
+  }
+
+  .nav-saturn:hover {
+    border-bottom: 3px solid var(--color-saturn-alt);
+  }
+
+  .nav-saturn--active {
+    border-bottom: 3px solid var(--color-saturn-alt);
+  }
+
+  .nav-uranus:hover {
+    border-bottom: 3px solid var(--color-uranus);
+  }
+
+  .nav-uranus--active {
+    border-bottom: 3px solid var(--color-uranus);
+  }
+
+  .nav-neptune:hover {
+    border-bottom: 3px solid var(--color-neptune);
+  }
+
+  .nav-neptune--active {
+    border-bottom: 3px solid var(--color-neptune);
   }
 
   .menu__heading {
@@ -537,8 +658,48 @@ MEDIUM SCREEN MEDIA QUERIES
     background-color: var(--color-text-secondary);
   }
 
-  .toggle-menu__item--active,
-  .toggle-menu__item--active .toggle-menu__heading span {
+  .toggle-mercury--active,
+  .toggle-mercury--active .toggle-menu__heading span {
+    background-color: var(--color-mercury);
+  }
+
+  .toggle-venus--active,
+  .toggle-venus--active .toggle-menu__heading span {
+    background-color: var(--color-venus);
+  }
+
+  .toggle-earth--active,
+  .toggle-earth--active .toggle-menu__heading span {
+    background-color: var(--color-earth);
+  }
+
+  .toggle-mars--active,
+  .toggle-mars--active .toggle-menu__heading span {
+    background-color: var(--color-mars-alt);
+  }
+
+  .toggle-jupiter--active,
+  .toggle-jupiter--active .toggle-menu__heading span {
+    background-color: var(--color-jupiter-alt);
+  }
+
+  .toggle-saturn--active,
+  .toggle-saturn--active .toggle-menu__heading span {
+    background-color: var(--color-saturn-alt);
+  }
+
+  .toggle-uranus--active,
+  .toggle-uranus--active .toggle-menu__heading span {
+    background-color: var(--color-uranus);
+  }
+
+  .toggle-neptune--active,
+  .toggle-neptune--active .toggle-menu__heading span {
+    background-color: var(--color-neptune);
+  }
+
+  .toggle-mercury--active,
+  .toggle-mercury--active .toggle-menu__heading span {
     background-color: var(--color-mercury);
   }
 
@@ -620,13 +781,75 @@ LARGE SCREEN MEDIA QUERIES
   }
 
   .menu__link:hover {
-    border-top: 3px solid var(--color-mercury);
     border-bottom: 0;
   }
 
   .menu__link--active {
-    border-top: 3px solid var(--color-mercury);
     border-bottom: 0;
+  }
+
+  .nav-mercury:hover {
+    border-top: 3px solid var(--color-mercury);
+  }
+
+  .nav-mercury--active {
+    border-top: 3px solid var(--color-mercury);
+  }
+
+  .nav-venus:hover {
+    border-top: 3px solid var(--color-venus);
+  }
+
+  .nav-venus--active {
+    border-top: 3px solid var(--color-venus);
+  }
+
+  .nav-earth:hover {
+    border-top: 3px solid var(--color-earth-alt);
+  }
+
+  .nav-earth--active {
+    border-top: 3px solid var(--color-earth-alt);
+  }
+
+  .nav-mars:hover {
+    border-top: 3px solid var(--color-mars);
+  }
+
+  .nav-mars--active {
+    border-top: 3px solid var(--color-mars);
+  }
+
+  .nav-jupiter:hover {
+    border-top: 3px solid var(--color-jupiter-alt);
+  }
+
+  .nav-jupiter--active {
+    border-top: 3px solid var(--color-jupiter-alt);
+  }
+
+  .nav-saturn:hover {
+    border-top: 3px solid var(--color-saturn-alt);
+  }
+
+  .nav-saturn--active {
+    border-top: 3px solid var(--color-saturn-alt);
+  }
+
+  .nav-uranus:hover {
+    border-top: 3px solid var(--color-uranus);
+  }
+
+  .nav-uranus--active {
+    border-top: 3px solid var(--color-uranus);
+  }
+
+  .nav-neptune:hover {
+    border-top: 3px solid var(--color-neptune);
+  }
+
+  .nav-neptune--active {
+    border-top: 3px solid var(--color-neptune);
   }
 
   .menu__link--active .menu__heading {
