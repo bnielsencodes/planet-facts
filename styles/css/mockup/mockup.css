@@ -530,6 +530,7 @@ LARGE SCREEN MEDIA QUERIES
   }
 
   .info__text {
+    margin: 16px auto 0 0;
     color: var(--color-text-primary);
     font-size: 0.95rem;
     letter-spacing: 0.2px;
