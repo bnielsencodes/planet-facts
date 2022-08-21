@@ -372,7 +372,7 @@ MEDIUM SCREEN MEDIA QUERIES
   }
 
   .info__text {
-    margin-top: 18px;
+    margin: 18px auto 0 0;
   }
 
   .source {
@@ -515,9 +515,9 @@ LARGE SCREEN MEDIA QUERIES
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
+    max-width: 100%;
     padding: 0 120px;
-    margin: 0 auto 80px;
+    margin: 0 0 80px 0;
   }
 
   .planet-container {
@@ -538,6 +538,7 @@ LARGE SCREEN MEDIA QUERIES
     flex-direction: column;
     justify-content: center;
     width: 45%;
+    max-width: 370px;
     padding: 0;
   }
 
@@ -550,7 +551,6 @@ LARGE SCREEN MEDIA QUERIES
   }
 
   .info__text {
-    margin: 16px auto 0 0;
     color: var(--color-text-primary);
     font-size: 0.95rem;
     letter-spacing: 0.2px;
