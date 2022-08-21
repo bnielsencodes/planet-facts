@@ -148,6 +148,10 @@ PLANET
 ************************************** */
 
 .planet {
+  position: relative;
+}
+
+.planet {
   width: 90px;
   margin: 0 auto;
 }
@@ -159,8 +163,12 @@ PLANET
   margin: 90px 0 70px;
 }
 
-.planet__img--is-hidden {
-  display: none;
+.planet__ternary {
+  position: absolute;
+  bottom: 36px;
+  left: 20.5px;
+  width: 50px;
+  height: auto;
 }
 
 /* **************************************
@@ -333,6 +341,12 @@ MEDIUM SCREEN MEDIA QUERIES
 
   .planet__img {
     margin-bottom: 100px;
+  }
+
+  .planet__ternary {
+    bottom: 39px;
+    left: 48.2px;
+    width: 90px;
   }
 
   .info-toggle-container {
@@ -512,6 +526,12 @@ LARGE SCREEN MEDIA QUERIES
 
   .planet {
     width: 235px;
+  }
+
+  .planet__ternary {
+    bottom: 30px;
+    left: 66.2px;
+    width: 105px;
   }
 
   .info-toggle-container {
