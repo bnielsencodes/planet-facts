@@ -328,6 +328,34 @@ INFO AND SOURCE
   color: var(--color-mercury);
 }
 
+.source--venus:hover {
+  color: var(--color-venus);
+}
+
+.source--earth:hover {
+  color: var(--color-earth-alt);
+}
+
+.source--mars:hover {
+  color: var(--color-mars-alt);
+}
+
+.source--jupiter:hover {
+  color: var(--color-jupiter-alt);
+}
+
+.source--saturn:hover {
+  color: var(--color-saturn-alt);
+}
+
+.source--uranus:hover {
+  color: var(--color-uranus);
+}
+
+.source--neptune:hover {
+  color: var(--color-neptune);
+}
+
 /* **************************************
 *****************************************
 CARDS
