@@ -108,19 +108,19 @@ TOGGLE MENU
   border-bottom: 1px solid var(--color-text-secondary);
 }
 
-.toggle-menu-sm__link {
+.toggle-menu-sm__item {
   display: flex;
   align-items: center;
   height: 46px;
   text-decoration: none;
 }
 
-.toggle-menu-sm__link:hover:not(.toggle-menu-sm__link--active) {
+.toggle-menu-sm__item:hover:not(.toggle-menu-sm__item--active) {
   padding-bottom: 3px;
   border-top: 3px solid var(--color-mercury);
 }
 
-.toggle-menu-sm__link--active {
+.toggle-menu-sm__item--active {
   border-top: 3px solid var(--color-mercury);
 }
 
@@ -132,11 +132,11 @@ TOGGLE MENU
   letter-spacing: 2.6px;
 }
 
-.toggle-menu-sm-link:hover .toggle-menu-sm__heading {
+.toggle-menu-sm__item:hover .toggle-menu-sm__heading {
   color: var(--color-text-primary);
 }
 
-.toggle-menu-sm__link--active .toggle-menu-sm__heading {
+.toggle-menu-sm__item--active .toggle-menu-sm__heading {
   margin-top: -3px;
   color: var(--color-text-primary);
 }
@@ -374,25 +374,25 @@ MEDIUM SCREEN MEDIA QUERIES
     width: 41%;
   }
 
-  .toggle-menu__link {
+  .toggle-menu__item {
     width: 100%;
     background-color: var(--color-bg);
     text-decoration: none;
   }
 
-  .toggle-menu__link:hover:not(.toggle-menu__link--active),
-  .toggle-menu__link:hover:not(.toggle-menu__link--active)
+  .toggle-menu__item:hover:not(.toggle-menu__item--active),
+  .toggle-menu__item:hover:not(.toggle-menu__item--active)
     .toggle-menu__heading
     span {
     background-color: var(--color-text-secondary);
   }
 
-  .toggle-menu__link--active,
-  .toggle-menu__link--active .toggle-menu__heading span {
+  .toggle-menu__item--active,
+  .toggle-menu__item--active .toggle-menu__heading span {
     background-color: var(--color-mercury);
   }
 
-  .toggle-menu__link--active .toggle-menu__heading span {
+  .toggle-menu__item--active .toggle-menu__heading span {
     color: var(--color-text-primary);
   }
 
