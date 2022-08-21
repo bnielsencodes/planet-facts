@@ -95,3 +95,13 @@ toggleMenuItemThree.addEventListener("click", () => {
   toggleMenuItemTwo.classList.remove("toggle-menu__item--active");
   toggleMenuItemThree.classList.add("toggle-menu__item--active");
 });
+
+// .NAV-OVERLAY VARIABLES
+const hamburgerMenu = document.querySelector(".fa-bars");
+const navOverlay = document.querySelector(".nav-overlay");
+
+// SHOW/HIDE NAV OVERLAY ON HAMBURGER MENU CLICK EVENT
+hamburgerMenu.addEventListener("click", () => {
+  navOverlay.classList.toggle("hidden");
+  hamburgerMenu.classList.toggle("fa-bars--active");
+});
