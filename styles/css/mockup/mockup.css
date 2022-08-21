@@ -441,7 +441,8 @@ LARGE SCREEN MEDIA QUERIES
 
   .nav {
     flex-direction: row;
-    padding: 14px 25px;
+    height: 62px;
+    padding: 0 25px;
   }
 
   .nav__logo {
@@ -450,14 +451,43 @@ LARGE SCREEN MEDIA QUERIES
 
   .menu {
     max-width: 482px;
-    height: 33px;
+    height: 100%;
     padding: 0;
     margin: 0;
+  }
+
+  .menu__link {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .menu__link:hover {
+    border-top: 3px solid var(--color-mercury);
+    border-bottom: 0;
+  }
+
+  .menu__link--active {
+    border-top: 3px solid var(--color-mercury);
+    border-bottom: 0;
+  }
+
+  .menu__link--active .menu__heading {
+    color: var(--color-text-primary);
   }
 
   .menu__heading {
     margin: 0;
     font-size: 0.75rem;
+  }
+
+  .menu__link:hover .menu__heading {
+    margin-top: 4px;
+    color: var(--color-text-primary);
+  }
+
+  .menu__link--active .menu__heading {
+    margin-top: -3px;
   }
 
   header {
