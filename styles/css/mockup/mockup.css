@@ -115,12 +115,30 @@ TOGGLE MENU
   text-decoration: none;
 }
 
+.toggle-menu-sm__link:hover:not(.toggle-menu-sm__link--active) {
+  padding-bottom: 3px;
+  border-top: 3px solid var(--color-mercury);
+}
+
+.toggle-menu-sm__link--active {
+  border-top: 3px solid var(--color-mercury);
+}
+
 .toggle-menu-sm__heading {
   padding-left: 2px;
   background-color: var(--color-bg);
   color: var(--color-text-ternary);
   font-size: 0.6rem;
   letter-spacing: 2.6px;
+}
+
+.toggle-menu-sm-link:hover .toggle-menu-sm__heading {
+  color: var(--color-text-primary);
+}
+
+.toggle-menu-sm__link--active .toggle-menu-sm__heading {
+  margin-top: -3px;
+  color: var(--color-text-primary);
 }
 
 /* **************************************
@@ -188,6 +206,10 @@ INFO AND SOURCE
   padding-right: 4px;
   background-color: var(--color-bg);
   color: var(--color-text-ternary);
+}
+
+.source__link:hover {
+  color: var(--color-mercury);
 }
 
 /* **************************************
