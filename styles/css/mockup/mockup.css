@@ -100,6 +100,106 @@ nav {
   background-color: var(--color-bg);
 }
 
+.fa-bars {
+  height: 17px;
+  color: var(--color-text-primary);
+  font-size: 1.3rem;
+}
+
+.fa-bars--active {
+  color: var(--color-text-secondary);
+}
+
+.nav-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 22px 0 16px;
+}
+
+.nav-list__item {
+  width: 100%;
+  height: 55px;
+  border-bottom: 0.5px solid var(--color-text-secondary);
+}
+
+.nav-list__item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.nav-list__inner-item {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  width: 122px;
+}
+
+.nav-list__color {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.nav-list__color--mercury {
+  background-color: var(--color-mercury-alt);
+}
+
+.nav-list__color--venus {
+  background-color: var(--color-venus-alt);
+}
+
+.nav-list__color--earth {
+  background-color: var(--color-earth-alt);
+}
+
+.nav-list__color--mars {
+  background-color: var(--color-mars-alt);
+}
+
+.nav-list__color--jupiter {
+  background-color: var(--color-jupiter-alt);
+}
+
+.nav-list__color--saturn {
+  background-color: var(--color-saturn-alt);
+}
+
+.nav-list__color--uranus {
+  background-color: var(--color-uranus-alt);
+}
+
+.nav-list__color--neptune {
+  background-color: var(--color-neptune-alt);
+}
+
+.nav-list__p {
+  color: var(--color-text-primary);
+  letter-spacing: 1.85px;
+  text-transform: uppercase;
+}
+
+.fa-chevron-right {
+  color: var(--color-text-ternary);
+  font-size: 0.6rem;
+}
+
 /* **************************************
 *****************************************
 TOGGLE MENU
