@@ -20,6 +20,14 @@ body {
   --color-saturn: #cd5120;
   --color-uranus: #1ec2a4;
   --color-neptune: #2d68f0;
+  --color-mercury-alt: #d9f5fd;
+  --color-venus-alt: #ffcb72;
+  --color-earth-alt: #5457ff;
+  --color-mars-alt: #ff5d34;
+  --color-jupiter-alt: #f7aa71;
+  --color-saturn-alt: #ffc957;
+  --color-uranus-alt: #00f4d4;
+  --color-neptune-alt: #377dff;
 }
 
 .stars-bg {
