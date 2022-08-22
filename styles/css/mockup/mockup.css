@@ -364,10 +364,55 @@ PLANET
 
 .planet__ternary {
   position: absolute;
-  bottom: 36px;
-  left: 20.5px;
-  width: 50px;
   height: auto;
+}
+
+.ternary--mercury {
+  bottom: 36px;
+  left: 25.5px;
+  width: 50px;
+}
+
+.ternary--venus {
+  bottom: 40px;
+  left: 42px;
+  width: 52px;
+}
+
+.ternary--earth {
+  bottom: 36px;
+  left: 46.5px;
+  width: 60px;
+}
+
+.ternary--mars {
+  bottom: 36px;
+  left: 33px;
+  width: 55px;
+}
+
+.ternary--jupiter {
+  bottom: 36px;
+  left: 69px;
+  width: 62px;
+}
+
+.ternary--saturn {
+  bottom: 80px;
+  left: 87.5px;
+  width: 60px;
+}
+
+.ternary--uranus {
+  bottom: 39px;
+  left: 54.5px;
+  width: 52px;
+}
+
+.ternary--neptune {
+  bottom: 39px;
+  left: 51.5px;
+  width: 52px;
 }
 
 /* **************************************
