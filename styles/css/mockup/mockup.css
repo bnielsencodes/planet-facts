@@ -1078,10 +1078,46 @@ LARGE SCREEN MEDIA QUERIES
     margin: 18px 0 30px;
   }
 
-  .planet__ternary {
-    bottom: 30px;
-    left: 66.2px;
-    width: 105px;
+  .ternary--mercury {
+    bottom: 8px;
+    left: 55.5px;
+  }
+
+  .ternary--venus {
+    left: 80.5px;
+  }
+
+  .ternary--earth {
+    bottom: 0px;
+    left: 85px;
+  }
+
+  .ternary--mars {
+    bottom: 15px;
+    left: 70.5px;
+    width: 85px;
+  }
+
+  .ternary--jupiter {
+    bottom: -34px;
+    left: 140px;
+  }
+
+  .ternary--saturn {
+    bottom: 60px;
+    left: 170px;
+    width: 90px;
+  }
+
+  .ternary--uranus {
+    bottom: 42px;
+    left: 95px;
+    width: 90px;
+  }
+
+  .ternary--neptune {
+    bottom: 40px;
+    left: 92.5px;
   }
 
   .info-toggle-container {
