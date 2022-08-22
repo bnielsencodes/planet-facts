@@ -524,6 +524,73 @@ CARDS
   font-size: 0.975rem;
 }
 
+/* ------------------------------------
+---------------------------------------
+FOOTER SECTION
+---------------------------------------
+------------------------------------ */
+
+#footer-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  padding-top: 25px;
+  font-size: 0.75rem;
+}
+
+.footer-content-container {
+  width: 254px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background-color: var(--color-bg);
+  font-size: 2.5rem;
+}
+
+.footer-icon-container {
+  width: 50px;
+  height: 50px;
+  fill: var(--color-text-secondary);
+}
+
+.footer-icon-container:hover {
+  transform: scale(1.1);
+}
+
+.twitter-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.twitter-svg:hover {
+  fill: #1da1f2;
+}
+
+.linkedin-svg:hover {
+  fill: #0966c2;
+}
+
+.github-svg:hover {
+  fill: #4183c4;
+}
+
+.email-svg:hover {
+  fill: #fbb612;
+}
+
+.footer-signature {
+  margin-top: 18px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
 /* **************************************
 *****************************************
 MEDIUM SCREEN MEDIA QUERIES
@@ -890,6 +957,10 @@ MEDIUM SCREEN MEDIA QUERIES
     margin-bottom: 3px;
     font-size: 1rem;
   }
+
+  .footer-content-container {
+    width: 300px;
+  }
 }
 
 /* **************************************
@@ -1180,6 +1251,10 @@ LARGE SCREEN MEDIA QUERIES
   .cards__stat {
     font-size: 2rem;
   }
+
+  .footer-content-container {
+    width: 320px;
+  }
 }
 
 /* **************************************
@@ -1311,5 +1386,9 @@ X-LARGE SCREEN MEDIA QUERIES
 
   .cards__text {
     font-size: 0.8rem;
+  }
+
+  .footer-content-container {
+    width: 330px;
   }
 }
