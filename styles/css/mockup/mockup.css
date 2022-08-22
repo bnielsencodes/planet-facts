@@ -817,6 +817,7 @@ LARGE SCREEN MEDIA QUERIES
     flex-direction: row;
     height: 62px;
     padding: 0 25px;
+    margin-bottom: 100px;
   }
 
   .nav__logo {
@@ -929,7 +930,7 @@ LARGE SCREEN MEDIA QUERIES
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 100%;
     padding: 0 80px;
     margin: 0 0 80px 0;
@@ -969,6 +970,26 @@ LARGE SCREEN MEDIA QUERIES
 
   .planet--neptune {
     width: 275px;
+  }
+
+  .planet__img--mercury {
+    margin: 110px 0 70px;
+  }
+
+  .planet__img--earth {
+    margin: 85px 0 70px;
+  }
+
+  .planet__img--mars {
+    margin: 105px 0 70px;
+  }
+
+  .planet__img--jupiter {
+    margin: 50px 0 30px;
+  }
+
+  .planet__img--saturn {
+    margin: 18px 0 30px;
   }
 
   .planet__ternary {
@@ -1045,6 +1066,10 @@ X-LARGE SCREEN MEDIA QUERIES
 ************************************** */
 
 @media (min-width: 1440px) {
+  .nav {
+    margin-bottom: 140px;
+  }
+
   .planet--mercury {
     width: 300px;
   }
@@ -1075,5 +1100,31 @@ X-LARGE SCREEN MEDIA QUERIES
 
   .planet--neptune {
     width: 462px;
+  }
+
+  .planet__img--mercury {
+    margin: 75px 0 70px;
+  }
+
+  .planet__img--venus {
+    margin: 38px 0 40px;
+  }
+
+  .planet__img--earth,
+  .planet__img--uranus,
+  .planet__img--neptune {
+    margin: 25px 0 40px;
+  }
+
+  .planet__img--mars {
+    margin: 55px 0 70px;
+  }
+
+  .planet__img--jupiter {
+    margin: -20px 0 50px;
+  }
+
+  .planet__img--saturn {
+    margin: -50px 0 0;
   }
 }
