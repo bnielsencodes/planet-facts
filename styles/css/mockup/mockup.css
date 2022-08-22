@@ -706,9 +706,50 @@ MEDIUM SCREEN MEDIA QUERIES
     margin-bottom: 100px;
   }
 
-  .planet__ternary {
-    bottom: 39px;
+  .ternary--mercury {
+    bottom: 36px;
     left: 48.2px;
+    width: 90px;
+  }
+
+  .ternary--venus {
+    bottom: 40px;
+    left: 85.5px;
+    width: 90px;
+  }
+
+  .ternary--earth {
+    bottom: 30px;
+    left: 96px;
+    width: 100px;
+  }
+
+  .ternary--mars {
+    bottom: 49px;
+    left: 71px;
+    width: 80px;
+  }
+
+  .ternary--jupiter {
+    bottom: 34px;
+    left: 152.5px;
+    width: 100px;
+  }
+
+  .ternary--saturn {
+    bottom: 122px;
+    left: 162.5px;
+    width: 90px;
+  }
+
+  .ternary--uranus {
+    left: 105px;
+    width: 90px;
+  }
+
+  .ternary--neptune {
+    bottom: 38px;
+    left: 102.5px;
     width: 90px;
   }
 
