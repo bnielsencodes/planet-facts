@@ -31,13 +31,11 @@ body {
   --color-neptune-alt: #377dff;
 }
 
-.stars-bg {
+.stars-svg {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
   width: 100%;
-  height: 780px;
+  height: 100%;
+  background-image: url("../../../img/background-stars.svg");
   background-repeat: repeat-y;
 }
 
@@ -467,10 +465,6 @@ MEDIUM SCREEN MEDIA QUERIES
     display: none;
   }
 
-  .stars-bg {
-    height: 908px;
-  }
-
   .nav {
     flex-direction: column;
     width: 100vw;
@@ -764,7 +758,7 @@ LARGE SCREEN MEDIA QUERIES
 
 @media (min-width: 1024px) {
   body {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .nav {
