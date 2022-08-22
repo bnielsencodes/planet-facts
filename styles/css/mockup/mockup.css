@@ -218,6 +218,7 @@ TOGGLE MENU
   height: 48px;
   border-top: 1px solid var(--color-text-secondary);
   border-bottom: 1px solid var(--color-text-secondary);
+  background-color: var(--color-bg);
 }
 
 .toggle-menu-sm__item {
@@ -454,6 +455,7 @@ CARDS
 
 .cards {
   padding: 0 20px;
+  background-color: var(--color-bg);
 }
 
 .cards__item {
@@ -785,7 +787,6 @@ MEDIUM SCREEN MEDIA QUERIES
     align-items: center;
     column-gap: 10px;
     padding: 0 35px 15px;
-    background-color: var(--color-bg);
   }
 
   .cards__item {
