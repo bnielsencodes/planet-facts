@@ -1036,3 +1036,43 @@ LARGE SCREEN MEDIA QUERIES
     font-size: 2rem;
   }
 }
+
+/* **************************************
+*****************************************
+X-LARGE SCREEN MEDIA QUERIES
+*****************************************
+************************************** */
+
+@media (min-width: 1440px) {
+  .planet--mercury {
+    width: 300px;
+  }
+
+  .planet--venus {
+    width: 420px;
+  }
+
+  .planet--earth {
+    width: 455px;
+  }
+
+  .planet--mars {
+    width: 375px;
+  }
+
+  .planet--jupiter {
+    width: 630px;
+  }
+
+  .planet--saturn {
+    width: 665px;
+  }
+
+  .planet--uranus {
+    width: 470px;
+  }
+
+  .planet--neptune {
+    width: 462px;
+  }
+}
