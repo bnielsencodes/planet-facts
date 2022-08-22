@@ -1,301 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ********************************
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ********************************
     GOOGLE FONTS 
     ********************************* -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
+    rel="stylesheet" />
 
-    <!-- ********************************
+  <!-- ********************************
     NORMALIZE CSS
     ********************************* -->
-    <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/normalize.css" />
 
-    <!-- ********************************
-    MOCKUP STYLESHEET
+  <!-- ********************************
+    MAIN STYLESHEET
     ********************************* -->
-    <link rel="stylesheet" href="styles/mockup.css" />
+  <link rel="stylesheet" href="styles/mockup.css" />
 
-    <!-- ********************************
+  <!-- ********************************
     FAVICON
     ********************************* -->
-    <link rel="icon" type="image/x-icon" href="img/planet-saturn.svg" />
+  <link rel="icon" type="image/x-icon" href="img/planet-saturn.svg" />
 
-    <!-- ********************************
+  <!-- ********************************
     FONT AWESOME KIT
     ********************************* -->
-    <script
-      src="https://kit.fontawesome.com/bd7428acdc.js"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://kit.fontawesome.com/bd7428acdc.js" crossorigin="anonymous"></script>
 
-    <title>Planet Facts | Neptune</title>
-  </head>
+  <title>Planet Facts | Neptune</title>
+</head>
 
-  <body class="stars-svg">
-    <main>
-      <!-- ********************************
+<body class="stars-svg">
+  <main>
+    <!-- ********************************
       NAVIGATION
     ********************************* -->
-      <nav class="nav">
-        <h2 class="nav__logo">The Planets</h2>
-        <i id="hide-burger" class="fa-regular fa-bars"></i>
-        <ul class="menu hidden-sm">
-          <li class="menu__item">
-            <a href="index.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Mercury</h4>
+    <nav class="nav">
+      <h2 class="nav__logo">The Planets</h2>
+      <i id="hide-burger" class="fa-regular fa-bars"></i>
+      <ul class="menu hidden-sm">
+        <li class="menu__item">
+          <a href="index.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Mercury</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="venus.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Venus</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="earth.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Earth</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="mars.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Mars</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="jupiter.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Jupiter</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="saturn.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Saturn</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="uranus.html" class="menu__link nav-neptune">
+            <h4 class="menu__heading">Uranus</h4>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="neptune.html" class="menu__link menu__link--active nav-neptune nav-neptune--active">
+            <h4 class="menu__heading">Neptune</h4>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ********************************
+      HEADER SECTION
+    ********************************* -->
+    <header>
+      <div class="nav-overlay hidden">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a href="index.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--mercury"></div>
+                <p class="nav-list__p">Mercury</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="venus.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Venus</h4>
+          <li class="nav-list__item">
+            <a href="venus.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--venus"></div>
+                <p class="nav-list__p">Venus</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="earth.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Earth</h4>
+          <li class="nav-list__item">
+            <a href="earth.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--earth"></div>
+                <p class="nav-list__p">Earth</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="mars.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Mars</h4>
+          <li class="nav-list__item">
+            <a href="mars.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--mars"></div>
+                <p class="nav-list__p">Mars</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="jupiter.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Jupiter</h4>
+          <li class="nav-list__item">
+            <a href="jupiter.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--jupiter"></div>
+                <p class="nav-list__p">Jupiter</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="saturn.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Saturn</h4>
+          <li class="nav-list__item">
+            <a href="saturn.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--saturn"></div>
+                <p class="nav-list__p">Saturn</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a href="uranus.html" class="menu__link nav-neptune">
-              <h4 class="menu__heading">Uranus</h4>
+          <li class="nav-list__item">
+            <a href="uranus.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--uranus"></div>
+                <p class="nav-list__p">Uranus</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
-          <li class="menu__item">
-            <a
-              href="neptune.html"
-              class="menu__link menu__link--active nav-neptune nav-neptune--active"
-            >
-              <h4 class="menu__heading">Neptune</h4>
+          <li class="nav-list__item">
+            <a href="neptune.html">
+              <div class="nav-list__inner-item">
+                <div class="nav-list__color nav-list__color--neptune"></div>
+                <p class="nav-list__p">Neptune</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
 
-      <!-- ********************************
-      HEADER SECTION
-    ********************************* -->
-      <header>
-        <div class="nav-overlay hidden">
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <a href="index.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--mercury"></div>
-                  <p class="nav-list__p">Mercury</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="venus.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--venus"></div>
-                  <p class="nav-list__p">Venus</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="earth.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--earth"></div>
-                  <p class="nav-list__p">Earth</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="mars.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--mars"></div>
-                  <p class="nav-list__p">Mars</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="jupiter.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--jupiter"></div>
-                  <p class="nav-list__p">Jupiter</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="saturn.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--saturn"></div>
-                  <p class="nav-list__p">Saturn</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="uranus.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--uranus"></div>
-                  <p class="nav-list__p">Uranus</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-            <li class="nav-list__item">
-              <a href="neptune.html">
-                <div class="nav-list__inner-item">
-                  <div class="nav-list__color nav-list__color--neptune"></div>
-                  <p class="nav-list__p">Neptune</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-              </a>
-            </li>
-          </ul>
+      <div id="toggle-menu-sm__hidden" class="toggle-menu-sm">
+        <div
+          class="toggle-menu-sm__item toggle-menu-sm__item--one toggle-menu-sm__item--active neptune neptune--active">
+          <h3 class="toggle-menu-sm__heading">Overview</h3>
         </div>
+        <div class="toggle-menu-sm__item toggle-menu-sm__item--two neptune">
+          <h3 class="toggle-menu-sm__heading">Structure</h3>
+        </div>
+        <div class="toggle-menu-sm__item toggle-menu-sm__item--three neptune">
+          <h3 class="toggle-menu-sm__heading">Surface</h3>
+        </div>
+      </div>
 
-        <div id="toggle-menu-sm__hidden" class="toggle-menu-sm">
-          <div
-            class="toggle-menu-sm__item toggle-menu-sm__item--one toggle-menu-sm__item--active neptune neptune--active"
-          >
-            <h3 class="toggle-menu-sm__heading">Overview</h3>
-          </div>
-          <div class="toggle-menu-sm__item toggle-menu-sm__item--two neptune">
-            <h3 class="toggle-menu-sm__heading">Structure</h3>
-          </div>
-          <div class="toggle-menu-sm__item toggle-menu-sm__item--three neptune">
-            <h3 class="toggle-menu-sm__heading">Surface</h3>
+      <div class="planet-container">
+        <div class="planet planet--neptune">
+          <img class="planet__img planet__img--primary planet__img--neptune" src="img/planet-neptune.svg"
+            alt="Illustration of the planet Neptune" />
+          <img class="planet__img planet__img--secondary planet__img--neptune hidden"
+            src="img/planet-neptune-internal.svg" alt="Illustration showing the planet Neptune's internal layers" />
+          <img class="planet__ternary ternary--neptune hidden" src="img/geology-neptune.png"
+            alt="Illustration showing the planet Neptune's surface" />
+        </div>
+      </div>
+
+      <div class="info-toggle-container">
+        <div class="info">
+          <h1 class="info__title">Neptune</h1>
+          <p class="info__text info__text--primary">
+            Neptune is the eighth and farthest-known Solar planet from the
+            Sun. In the Solar System, it is the fourth-largest planet by
+            diameter, the third-most-massive planet, and the densest giant
+            planet. It is 17 times the mass of Earth, and more massive than
+            its near-twin Uranus.
+          </p>
+          <p class="info__text info__text--secondary hidden">
+            Neptune's internal structure resembles that of Uranus. Its
+            atmosphere forms about 5% to 10% of its mass and extends perhaps
+            10% to 20% of the way towards the core. Increasing concentrations
+            of methane, ammonia and water are found in the lower regions.
+          </p>
+          <p class="info__text info__text--ternary hidden">
+            Neptune's atmosphere is 80% hydrogen and 19% helium. A trace
+            amount of methane is also present. Prominent absorption bands of
+            methane exist at wavelengths above 600nm, in the red and infrared
+            portion of the spectrum.
+          </p>
+          <div class="source">
+            <p class="source__text">Sources<span>:</span></p>
+            <a class="source__link source--neptune" href="https://en.wikipedia.org/wiki/Neptune_(planet)"
+              target="_blank">Wikipedia</a>
+            <svg class="source__icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12">
+              <path fill="#FFF"
+                d="M11.34.66C10.9.22 10.37 0 9.75 0h-7.5C1.63 0 1.1.22.66.66.22 1.1 0 1.63 0 2.25v7.5c0 .62.22 1.15.66 1.59.44.44.97.66 1.59.66h7.5c.62 0 1.15-.22 1.59-.66.44-.44.66-.97.66-1.59v-7.5c0-.62-.22-1.15-.66-1.59zM10 6.25a.467.467 0 01-.305.46.544.544 0 01-.195.04.465.465 0 01-.352-.149L8.023 5.476 3.852 9.648a.481.481 0 01-.352.149.48.48 0 01-.352-.149l-.796-.797a.48.48 0 01-.149-.351.48.48 0 01.149-.352l4.172-4.172-1.125-1.125c-.162-.15-.198-.333-.11-.546A.467.467 0 015.75 2H9.5c.135 0 .253.05.352.148A.48.48 0 0110 2.5v3.75z"
+                opacity=".5" />
+            </svg>
           </div>
         </div>
 
-        <div class="planet-container">
-          <div class="planet planet--neptune">
-            <img
-              class="planet__img planet__img--primary planet__img--neptune"
-              src="img/planet-neptune.svg"
-              alt="Illustration of the planet Neptune"
-            />
-            <img
-              class="planet__img planet__img--secondary planet__img--neptune hidden"
-              src="img/planet-neptune-internal.svg"
-              alt="Illustration showing the planet Neptune's internal layers"
-            />
-            <img
-              class="planet__ternary ternary--neptune hidden"
-              src="img/geology-neptune.png"
-              alt="Illustration showing the planet Neptune's surface"
-            />
+        <div class="toggle-menu hidden-sm">
+          <div class="toggle-menu__item toggle-menu__item--one toggle-menu__item--active toggle-neptune--active">
+            <h3 class="toggle-menu__heading"><span>01</span>Overview</h3>
+          </div>
+          <div class="toggle-menu__item toggle-menu__item--two">
+            <h3 class="toggle-menu__heading">
+              <span>02</span>Internal Structure
+            </h3>
+          </div>
+          <div class="toggle-menu__item toggle-menu__item--three">
+            <h3 class="toggle-menu__heading">
+              <span>03</span>Surface Geology
+            </h3>
           </div>
         </div>
+      </div>
+    </header>
 
-        <div class="info-toggle-container">
-          <div class="info">
-            <h1 class="info__title">Neptune</h1>
-            <p class="info__text info__text--primary">
-              Neptune is the eighth and farthest-known Solar planet from the
-              Sun. In the Solar System, it is the fourth-largest planet by
-              diameter, the third-most-massive planet, and the densest giant
-              planet. It is 17 times the mass of Earth, and more massive than
-              its near-twin Uranus.
-            </p>
-            <p class="info__text info__text--secondary hidden">
-              Neptune's internal structure resembles that of Uranus. Its
-              atmosphere forms about 5% to 10% of its mass and extends perhaps
-              10% to 20% of the way towards the core. Increasing concentrations
-              of methane, ammonia and water are found in the lower regions.
-            </p>
-            <p class="info__text info__text--ternary hidden">
-              Neptune's atmosphere is 80% hydrogen and 19% helium. A trace
-              amount of methane is also present. Prominent absorption bands of
-              methane exist at wavelengths above 600nm, in the red and infrared
-              portion of the spectrum.
-            </p>
-            <div class="source">
-              <p class="source__text">Sources<span>:</span></p>
-              <a
-                class="source__link source--neptune"
-                href="https://en.wikipedia.org/wiki/Neptune_(planet)"
-                target="_blank"
-                >Wikipedia</a
-              >
-              <svg
-                class="source__icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-              >
-                <path
-                  fill="#FFF"
-                  d="M11.34.66C10.9.22 10.37 0 9.75 0h-7.5C1.63 0 1.1.22.66.66.22 1.1 0 1.63 0 2.25v7.5c0 .62.22 1.15.66 1.59.44.44.97.66 1.59.66h7.5c.62 0 1.15-.22 1.59-.66.44-.44.66-.97.66-1.59v-7.5c0-.62-.22-1.15-.66-1.59zM10 6.25a.467.467 0 01-.305.46.544.544 0 01-.195.04.465.465 0 01-.352-.149L8.023 5.476 3.852 9.648a.481.481 0 01-.352.149.48.48 0 01-.352-.149l-.796-.797a.48.48 0 01-.149-.351.48.48 0 01.149-.352l4.172-4.172-1.125-1.125c-.162-.15-.198-.333-.11-.546A.467.467 0 015.75 2H9.5c.135 0 .253.05.352.148A.48.48 0 0110 2.5v3.75z"
-                  opacity=".5"
-                />
-              </svg>
-            </div>
-          </div>
+    <section class="cards">
+      <div class="cards__item">
+        <h4 class="cards__text">Rotation Time</h4>
+        <h2 class="cards__stat">16.08 Hours</h2>
+      </div>
+      <div class="cards__item">
+        <h4 class="cards__text">Revolution Time</h4>
+        <h2 class="cards__stat">164.79 Years</h2>
+      </div>
+      <div class="cards__item">
+        <h4 class="cards__text">Radius</h4>
+        <h2 class="cards__stat">24,622 km</h2>
+      </div>
+      <div class="cards__item">
+        <h4 class="cards__text">Average Temp.</h4>
+        <h2 class="cards__stat">-201&degc</h2>
+      </div>
+    </section>
+  </main>
 
-          <div class="toggle-menu hidden-sm">
-            <div
-              class="toggle-menu__item toggle-menu__item--one toggle-menu__item--active toggle-neptune--active"
-            >
-              <h3 class="toggle-menu__heading"><span>01</span>Overview</h3>
-            </div>
-            <div class="toggle-menu__item toggle-menu__item--two">
-              <h3 class="toggle-menu__heading">
-                <span>02</span>Internal Structure
-              </h3>
-            </div>
-            <div class="toggle-menu__item toggle-menu__item--three">
-              <h3 class="toggle-menu__heading">
-                <span>03</span>Surface Geology
-              </h3>
-            </div>
-          </div>
-        </div>
-      </header>
+  <script src="js/app.js"></script>
+  <script src="js/neptune.js"></script>
+</body>
 
-      <section class="cards">
-        <div class="cards__item">
-          <h4 class="cards__text">Rotation Time</h4>
-          <h2 class="cards__stat">16.08 Hours</h2>
-        </div>
-        <div class="cards__item">
-          <h4 class="cards__text">Revolution Time</h4>
-          <h2 class="cards__stat">164.79 Years</h2>
-        </div>
-        <div class="cards__item">
-          <h4 class="cards__text">Radius</h4>
-          <h2 class="cards__stat">24,622 km</h2>
-        </div>
-        <div class="cards__item">
-          <h4 class="cards__text">Average Temp.</h4>
-          <h2 class="cards__stat">-201&degc</h2>
-        </div>
-      </section>
-    </main>
-
-    <script src="js/app.js"></script>
-    <script src="js/neptune.js"></script>
-  </body>
 </html>
