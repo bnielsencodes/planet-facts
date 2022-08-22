@@ -812,10 +812,6 @@ LARGE SCREEN MEDIA QUERIES
 ************************************** */
 
 @media (min-width: 1024px) {
-  body {
-    /* overflow: hidden; */
-  }
-
   .nav {
     flex-direction: row;
     height: 62px;
@@ -939,11 +935,39 @@ LARGE SCREEN MEDIA QUERIES
   }
 
   .planet-container {
-    width: 50%;
+    flex-grow: 2;
   }
 
-  .planet {
-    width: 235px;
+  .planet--mercury {
+    width: 200px;
+  }
+
+  .planet--venus {
+    width: 250px;
+  }
+
+  .planet--earth {
+    width: 270px;
+  }
+
+  .planet--mars {
+    width: 225px;
+  }
+
+  .planet--jupiter {
+    width: 380px;
+  }
+
+  .planet--saturn {
+    width: 430px;
+  }
+
+  .planet--uranus {
+    width: 280px;
+  }
+
+  .planet--neptune {
+    width: 275px;
   }
 
   .planet__ternary {
@@ -955,6 +979,7 @@ LARGE SCREEN MEDIA QUERIES
   .info-toggle-container {
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
     width: 45%;
     max-width: 370px;
     padding: 0;
