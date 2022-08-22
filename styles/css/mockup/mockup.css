@@ -623,8 +623,36 @@ MEDIUM SCREEN MEDIA QUERIES
     display: none;
   }
 
-  .planet {
+  .planet--mercury {
     width: 185px;
+  }
+
+  .planet--venus {
+    width: 260px;
+  }
+
+  .planet--earth {
+    width: 290px;
+  }
+
+  .planet--mars {
+    width: 220px;
+  }
+
+  .planet--jupiter {
+    width: 405px;
+  }
+
+  .planet--saturn {
+    width: 415px;
+  }
+
+  .planet--uranus {
+    width: 300px;
+  }
+
+  .planet--neptune {
+    width: 295px;
   }
 
   .planet__img {
