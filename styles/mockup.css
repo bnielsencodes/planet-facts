@@ -1139,7 +1139,7 @@ LARGE SCREEN MEDIA QUERIES
 
   .info__text {
     color: var(--color-text-primary);
-    font-size: 0.95rem;
+    font-size: 1rem;
     letter-spacing: 0.2px;
   }
 
@@ -1190,6 +1190,18 @@ X-LARGE SCREEN MEDIA QUERIES
 @media (min-width: 1440px) {
   .nav {
     margin-bottom: 140px;
+  }
+
+  .nav__logo {
+    font-size: 25px;
+  }
+
+  .menu {
+    max-width: 530px;
+  }
+
+  .menu__heading {
+    font-size: 0.85rem;
   }
 
   .planet--mercury {
@@ -1294,5 +1306,9 @@ X-LARGE SCREEN MEDIA QUERIES
     bottom: -20px;
     left: 183.5px;
     width: 95px;
+  }
+
+  .cards__text {
+    font-size: 0.8rem;
   }
 }
