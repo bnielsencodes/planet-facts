@@ -320,16 +320,43 @@ PLANET
 
 .planet {
   position: relative;
+  margin: 0 auto;
 }
 
-.planet {
-  width: 90px;
-  margin: 0 auto;
+.planet--mercury {
+  width: 100px;
+}
+
+.planet--venus {
+  width: 135px;
+}
+
+.planet--earth {
+  width: 152px;
+}
+
+.planet--mars {
+  width: 120px;
+}
+
+.planet--jupiter {
+  width: 200px;
+}
+
+.planet--saturn {
+  width: 235px;
+}
+
+.planet--uranus {
+  width: 160px;
+}
+
+.planet--neptune {
+  width: 155px;
 }
 
 .planet__img {
   width: 100%;
-  max-width: 290px;
   height: auto;
   margin: 90px 0 70px;
 }
