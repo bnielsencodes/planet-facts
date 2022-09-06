@@ -31,12 +31,12 @@ body {
   --color-saturn-alt: #ffc957;
   --color-uranus-alt: #00f4d4;
   --color-neptune-alt: #377dff;
-}
-
-body {
+  /* hide scrollbar but still allow scroll */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
+
+/* hide scrollbar but still allow scroll */
 body::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
