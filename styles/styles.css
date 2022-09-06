@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
   max-width: 1440px;
+}
+
+:root {
   margin: 0 auto;
 }
 
