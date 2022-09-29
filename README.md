@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/bnielsencodes/Planet-Facts](https://github.com/bnielsencodes/Planet-Facts)
+- Live Site URL: [https://bnielsen.dev/Planet-Facts] (https://bnielsen.dev/Planet-Facts)
 
 ## My process
 
