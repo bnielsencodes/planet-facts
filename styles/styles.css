@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 }
 
 .stars-svg {
-  background-image: url("../img/background-stars.svg");
+  background-image: url("../assets/img/background-stars.svg");
   background-size: cover;
   background-repeat: repeat-y;
 }
