@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bnielsencodes/Planet-Facts](https://github.com/bnielsencodes/Planet-Facts)
-- Live Site URL: [https://bnielsen.dev/Planet-Facts] (https://bnielsen.dev/Planet-Facts)
+- Live Site URL: [https://bnielsen.dev/Planet-Facts](https://bnielsen.dev/Planet-Facts)
 
 ## My process
 
