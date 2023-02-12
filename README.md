@@ -1,6 +1,6 @@
 # Frontend Mentor - Planets Facts Site Solution
 
-This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Planets Fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of Contents
 
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/bnielsencodes/Planet-Facts](https://github.com/bnielsencodes/Planet-Facts)
-- Live Site URL: [https://bnielsen.dev/Planet-Facts](https://bnielsen.dev/Planet-Facts)
+- Solution URL: [https://github.com/bnielsencodes/planet-facts](https://github.com/bnielsencodes/planet-facts)
+- Live Site URL: [https://bnielsen.dev/planet-facts](https://bnielsen.dev/planet-facts)
 
 ## My Process
 
