@@ -1,26 +1,17 @@
-# Frontend Mentor - Planets Facts Site Solution
+# Planets Facts
 
-This is a solution to the [Planets Fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A web app that allows you to explore facts of all the planets in our solar system.
 
 ## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
-
-### The Challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
 ### Screenshots
 
@@ -32,23 +23,23 @@ Users should be able to:
 
 <img src="assets/img/screenshots/Planet_Facts_Mobile.png" alt="screenshot of Planet Facts mobile website" width="300">
 
-### Links
+### Link
 
-- Solution URL: [https://github.com/bnielsencodes/planet-facts](https://github.com/bnielsencodes/planet-facts)
-- Live Site URL: [https://bnielsen.dev/planet-facts](https://bnielsen.dev/planet-facts)
+- Live Site URL: [https://bnielsencodes.github.io/planet-facts](https://bnielsencodes.github.io/planet-facts)
 
 ## My Process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+- [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Semantic HTML5 markup](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [Mobile-first workflow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [VS Code](https://code.visualstudio.com/) - Integrated development environment
 
 ## Author
 
-- Website - [Brandon Nielsen](https://www.bnielsen.dev)
-- LinkedIn - [Brandon Nielsen](https://www.linkedin.com/in/bnielsencodes)
+- Portfolio Website - [bnielsen.dev](https://bnielsen.dev)
+- LinkedIn - [/in/bnielsencodes](https://linkedin.com/in/bnielsencodes)
 - Twitter - [@bnielsencodes](https://twitter.com/bnielsencodes)
 - Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
